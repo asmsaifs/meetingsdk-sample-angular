@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "d61845ba-1876-472d-8eae-a27523d9ab71"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -41,7 +44,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "baseHref": "/",
+              "baseHref": "/meetingsdk-sample-angular/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
